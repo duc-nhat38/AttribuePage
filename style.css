@@ -3,6 +3,7 @@
 :root {
   --header-background: #ffd23f;
   --header-color: #353434;
+  --border-color: #f0f0f0;
 }
 * {
   box-sizing: border-box;
@@ -92,10 +93,15 @@ body {
   display: flex;
   flex-direction: column;
 }
-.content .information .skill div span{
+.content .information .skill div .point_skill{
   margin-top: 5px;
   width: 100%;
   height: 10px;
+  border: 1px solid var(--border-color);
+}
+.content .information .skill div .point_skill span{
+  width: 40%;
+  height: 100%;
   background-color: var(--header-background);
 }
 .content .information .text p{
