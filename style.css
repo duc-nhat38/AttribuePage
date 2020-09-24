@@ -73,6 +73,7 @@ body {
 }
 .content .information {
   width: 100%;
+  margin-bottom: 5%;
   display: flex;
   flex-wrap: wrap;
 }
