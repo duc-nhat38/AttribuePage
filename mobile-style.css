@@ -22,8 +22,8 @@
   .content .information {
     font-size: 15px;
   }
-  .content .information .skill div span {
-    height: 6px;
+  .content .information .skill div .point_skill{
+    height: 8px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -58,11 +58,11 @@
   .content .information {
     font-size: 11px;
   }
-  .content .information .skill div span {
-    height: 4px;
-  }
   .content .information .text p {
     margin-bottom: 6px;
+  }
+  .content .information .skill div .point_skill{
+    height: 6px;
   }
 }
 @media screen and (max-width: 320px) {
