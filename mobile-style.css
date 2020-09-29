@@ -31,19 +31,23 @@
     width: 90%;
     margin: 0 5%;
   }
+  .container .header {
+    display: block;
+    border-bottom: 2px solid var(--header-color);
+  }
   .container .header .header_image img {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height:110px;
   }
   .container .header .header_name {
     font-size: 10px;
     letter-spacing: 2px;
+    margin-top: 2%;
   }
   .container .header .header_name h3 {
     font-size: 20px;
   }
   .content .introduce {
-    border-top: 2px solid var(--header-color);
     border-bottom: 2px solid var(--header-color);
   }
   .content .introduce .introduce_item {
@@ -64,15 +68,23 @@
   .content .information .skill div .point_skill{
     height: 6px;
   }
+  .content .information .information_item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media screen and (max-width: 320px) {
   .container {
     width: 100%;
     margin: 0;
   }
+  .content {
+    padding: 0 2%;
+  }
   .container .header .header_image img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   .container .header .header_name {
     font-size: 10px;

@@ -26,7 +26,8 @@ body {
   padding: 3% 0;
   background-color: var(--header-background);
   display: flex;
-  
+  border-bottom: 3px solid var(--header-color);
+  color: var(--header-color);
 }
 
 .container .header .header_image {
@@ -60,7 +61,6 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  border-top: 3px solid var(--header-color);
   border-bottom: 3px solid var(--header-color);
   color: var(--header-color);
 }
